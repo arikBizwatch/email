@@ -1,0 +1,148 @@
+body {
+  /* height: 100%;
+  align-items: center;
+  justify-content: center; */
+  font-family: calibri, arial;
+}
+.mainDiv {
+  width: 852px;
+  height: 1049px;
+  background-color: #ffff;
+}
+.titleImg {
+  width: 98px;
+  height: 111px;
+  position: absolute;
+  left: 377px;
+  top: 20px;
+}
+.coverImg {
+  position: absolute;
+  width: 852px;
+  height: 204px;
+  left: 0px;
+  top: 149px;
+  z-index: 1;
+}
+.titleText {
+  position: absolute;
+  width: 638px;
+  height: 85px;
+  left: 40px;
+  font-size: 40px;
+  top: 175px;
+  color: #ffff;
+  z-index: 2;
+}
+.secTitleText {
+  position: absolute;
+  width: 268px;
+  height: 43px;
+  left: 40px;
+  top: 239px;
+  font-size: 20px;
+  color: #ffff;
+  z-index: 2;
+}
+.bannerTop {
+  position: absolute;
+  width: 852px;
+  height: 51px;
+  left: 0px;
+  top: 370px;
+  background: #ffc000;
+  text-align: center;
+}
+.bannerTopText {
+  position: relative;
+  top: 21%;
+  /* transform: translateY(-50%); */
+  line-height: normal;
+  font-weight: 700;
+  font-size: 24px;
+  color: #002060;
+}
+.bannerBottom {
+  position: absolute;
+  width: 852px;
+  height: 6px;
+  left: 0px;
+  top: 998px;
+  background: #ffc000;
+}
+.postComp {
+  position: absolute;
+  height: 115px;
+  width: 685px;
+  /* background-color: red; */
+  position: absolute;
+  left: 40px;
+  top: 463px;
+  z-index: 1;
+  /* top : 600-463 = +137 every time */
+}
+.post:hover {
+  transform: translateY(-0.5rem);
+  transition: 0.7s;
+}
+.postComp2 {
+  position: absolute;
+  height: 115px;
+  width: 685px;
+  /* background-color: red; */
+  position: absolute;
+  left: 40px;
+  top: 600px;
+  z-index: 1;
+  /* top : 600-463 = +137 every time */
+}
+.postComp3 {
+  position: absolute;
+  height: 115px;
+  width: 685px;
+  /* background-color: red; */
+  position: absolute;
+  left: 40px;
+  top: 737px;
+  z-index: 1;
+  /* top : 600-463 = +137 every time */
+}
+.postImg {
+  position: absolute;
+  width: 241px;
+  height: 115px;
+  z-index: 2;
+  background: #002060;
+}
+.p {
+  /* top: 21%; */
+
+  position: absolute;
+  left: 255px;
+  font-weight: 500;
+  font-size: 18px;
+  color: #002060;
+  letter-spacing: 4px;
+}
+
+.submitBtn {
+  position: absolute;
+  width: 283px;
+  height: 45px;
+  left: 284px;
+  top: 911px;
+  background: #ffc000;
+  border: none;
+}
+.submitBtn:hover {
+  background-color: #ffbf00c3;
+  transition: 0.7s;
+  color: #011338;
+
+  /* font-weight: bold; */
+}
+
+.btnText {
+  color: #002060;
+  font-size: 24px;
+}
